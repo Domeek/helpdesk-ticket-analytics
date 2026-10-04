@@ -54,7 +54,24 @@ def write_csv(tickets, path):
         writer.writerows(tickets)
 
 
+def add_dirty_records(tickets):
+    """Damage a few rows on purpose, so the loader has something to clean."""
+    picked = random.sample(range(len(tickets)), 16)
+
+    for i in picked[:4]:
+        tickets[i]["category"] = ""  # missing category
+    for i in picked[4:8]:
+        tickets[i]["category"] = tickets[i]["category"].upper()  # NETWORK instead of network
+    for i in picked[8:12]:
+        tickets[i]["agent"] = f"  {tickets[i]['agent'].lower()} "  # lowercase and extra spaces
+    for i in picked[12:16]:
+        tickets[i]["priority"] = tickets[i]["priority"].capitalize()  # High instead of high
+
+    duplicates = [dict(tickets[i]) for i in random.sample(range(len(tickets)), 5)]
+    return tickets + duplicates
+
+
 if __name__ == "__main__":
-    tickets = [make_ticket(i) for i in range(1, 1001)]
+    tickets = add_dirty_records([make_ticket(i) for i in range(1, 1001)])
     write_csv(tickets, OUTPUT_PATH)
     print(f"Wrote {len(tickets)} tickets to {OUTPUT_PATH}")

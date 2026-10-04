@@ -65,7 +65,7 @@ ticket_id,created_at,category,priority,status,agent,resolution_hours
 64,2026-03-10T08:13,account,low,resolved,Ola N.,15.7
 65,2026-06-01T10:49,software,medium,resolved,Ola N.,4.1
 66,2026-03-05T14:54,hardware,medium,resolved,Ola N.,2.4
-67,2026-04-20T08:14,network,high,resolved,Ola N.,7.7
+67,2026-04-20T08:14,NETWORK,high,resolved,Ola N.,7.7
 68,2026-03-16T08:29,hardware,medium,resolved,Tomasz B.,25.2
 69,2026-04-13T03:41,network,critical,resolved,Ola N.,2.9
 70,2026-02-09T09:48,hardware,high,resolved,Piotr W.,5.2
@@ -129,8 +129,8 @@ ticket_id,created_at,category,priority,status,agent,resolution_hours
 128,2026-05-14T08:08,software,medium,resolved,Piotr W.,10.3
 129,2026-05-29T09:52,hardware,high,resolved,Marta S.,9.9
 130,2026-01-21T19:09,software,critical,resolved,Marta S.,2.1
-131,2026-05-25T10:50,network,low,open,Tomasz B.,
-132,2026-05-01T12:52,software,low,resolved,Anna K.,39.8
+131,2026-05-25T10:50,network,low,open,  tomasz b. ,
+132,2026-05-01T12:52,software,low,resolved,  anna k. ,39.8
 133,2026-06-19T09:39,account,medium,resolved,Piotr W.,19.3
 134,2026-02-24T10:08,account,low,in_progress,Tomasz B.,
 135,2026-04-07T10:23,software,low,resolved,Tomasz B.,24.0
@@ -178,7 +178,7 @@ ticket_id,created_at,category,priority,status,agent,resolution_hours
 177,2026-04-15T08:22,network,low,resolved,Ola N.,29.3
 178,2026-01-16T12:41,software,medium,resolved,Tomasz B.,26.2
 179,2026-04-02T02:19,account,high,resolved,Ola N.,9.2
-180,2026-01-28T09:50,account,low,resolved,Tomasz B.,86.4
+180,2026-01-28T09:50,ACCOUNT,low,resolved,Tomasz B.,86.4
 181,2026-05-19T08:24,account,high,resolved,Ola N.,5.2
 182,2026-03-20T10:43,software,low,resolved,Ola N.,16.8
 183,2026-03-23T11:19,hardware,critical,resolved,Ola N.,5.1
@@ -232,7 +232,7 @@ ticket_id,created_at,category,priority,status,agent,resolution_hours
 231,2026-01-14T11:48,printer,low,resolved,Ola N.,45.8
 232,2026-06-24T10:50,hardware,high,resolved,Ola N.,2.5
 233,2026-04-02T11:02,account,medium,resolved,Marta S.,6.8
-234,2026-06-10T08:59,software,medium,resolved,Tomasz B.,7.4
+234,2026-06-10T08:59,software,Medium,resolved,Tomasz B.,7.4
 235,2026-03-02T15:34,printer,low,resolved,Ola N.,26.8
 236,2026-05-01T21:37,network,medium,resolved,Tomasz B.,14.8
 237,2026-04-28T20:37,software,high,resolved,Anna K.,3.1
@@ -264,7 +264,7 @@ ticket_id,created_at,category,priority,status,agent,resolution_hours
 263,2026-01-21T15:57,printer,medium,in_progress,Anna K.,
 264,2026-03-22T13:45,software,medium,resolved,Piotr W.,25.9
 265,2026-01-26T10:36,account,low,resolved,Ola N.,8.6
-266,2026-05-27T14:37,account,medium,resolved,Marta S.,11.8
+266,2026-05-27T14:37,account,medium,resolved,  marta s. ,11.8
 267,2026-06-10T22:30,account,medium,resolved,Anna K.,2.9
 268,2026-04-27T10:57,network,medium,resolved,Piotr W.,29.4
 269,2026-04-29T11:41,software,high,resolved,Tomasz B.,10.2
@@ -577,12 +577,12 @@ ticket_id,created_at,category,priority,status,agent,resolution_hours
 576,2026-02-26T16:56,hardware,high,resolved,Anna K.,4.1
 577,2026-04-02T10:48,software,high,resolved,Tomasz B.,11.3
 578,2026-04-01T10:43,software,low,resolved,Tomasz B.,48.9
-579,2026-05-05T01:13,network,medium,resolved,Anna K.,11.9
-580,2026-04-09T09:30,hardware,low,resolved,Marta S.,19.5
+579,2026-05-05T01:13,NETWORK,medium,resolved,Anna K.,11.9
+580,2026-04-09T09:30,,low,resolved,Marta S.,19.5
 581,2026-05-06T10:54,network,low,resolved,Piotr W.,18.3
 582,2026-02-11T07:17,software,medium,resolved,Ola N.,19.9
 583,2026-05-13T11:00,account,medium,resolved,Tomasz B.,29.3
-584,2026-03-30T09:54,printer,medium,resolved,Ola N.,11.9
+584,2026-03-30T09:54,printer,Medium,resolved,Ola N.,11.9
 585,2026-03-27T13:28,software,medium,resolved,Piotr W.,24.8
 586,2026-02-16T02:07,network,low,resolved,Marta S.,60.6
 587,2026-04-28T08:49,network,medium,resolved,Ola N.,19.9
@@ -601,7 +601,7 @@ ticket_id,created_at,category,priority,status,agent,resolution_hours
 600,2026-03-27T01:27,software,medium,in_progress,Tomasz B.,
 601,2026-06-08T10:15,account,medium,resolved,Anna K.,5.8
 602,2026-01-15T13:33,software,medium,resolved,Tomasz B.,9.8
-603,2026-05-26T10:54,account,high,resolved,Marta S.,8.3
+603,2026-05-26T10:54,ACCOUNT,high,resolved,Marta S.,8.3
 604,2026-02-18T13:12,network,low,resolved,Anna K.,36.8
 605,2026-02-20T08:28,software,low,resolved,Ola N.,77.1
 606,2026-03-17T14:31,hardware,low,resolved,Piotr W.,18.8
@@ -616,7 +616,7 @@ ticket_id,created_at,category,priority,status,agent,resolution_hours
 615,2026-01-23T09:35,software,low,resolved,Piotr W.,57.8
 616,2026-03-10T14:16,hardware,high,resolved,Tomasz B.,1.5
 617,2026-03-30T12:34,network,medium,resolved,Tomasz B.,20.6
-618,2026-06-04T08:33,account,medium,resolved,Marta S.,16.9
+618,2026-06-04T08:33,,medium,resolved,Marta S.,16.9
 619,2026-05-20T11:46,account,low,resolved,Marta S.,31.4
 620,2026-05-11T13:34,software,low,resolved,Marta S.,18.2
 621,2026-02-20T10:20,account,low,resolved,Tomasz B.,17.4
@@ -687,7 +687,7 @@ ticket_id,created_at,category,priority,status,agent,resolution_hours
 686,2026-01-12T12:40,printer,medium,resolved,Ola N.,8.6
 687,2026-06-26T09:38,software,low,in_progress,Ola N.,
 688,2026-03-05T08:36,printer,low,open,Ola N.,
-689,2026-04-20T14:12,account,medium,resolved,Tomasz B.,8.4
+689,2026-04-20T14:12,,medium,resolved,Tomasz B.,8.4
 690,2026-04-21T10:02,network,low,resolved,Anna K.,14.5
 691,2026-02-20T15:19,network,medium,resolved,Piotr W.,7.6
 692,2026-03-12T12:01,software,medium,resolved,Anna K.,9.1
@@ -697,7 +697,7 @@ ticket_id,created_at,category,priority,status,agent,resolution_hours
 696,2026-06-01T09:24,software,low,resolved,Marta S.,12.7
 697,2026-01-21T14:19,software,high,resolved,Ola N.,3.4
 698,2026-06-08T10:53,hardware,low,resolved,Anna K.,7.9
-699,2026-01-07T08:05,network,low,resolved,Marta S.,26.5
+699,2026-01-07T08:05,,low,resolved,Marta S.,26.5
 700,2026-01-28T09:30,software,low,in_progress,Tomasz B.,
 701,2026-05-28T17:43,hardware,medium,resolved,Marta S.,23.8
 702,2026-04-06T00:59,account,low,resolved,Anna K.,42.0
@@ -762,7 +762,7 @@ ticket_id,created_at,category,priority,status,agent,resolution_hours
 761,2026-03-20T08:02,account,medium,resolved,Marta S.,24.1
 762,2026-05-23T13:31,printer,medium,resolved,Ola N.,14.2
 763,2026-01-05T09:21,software,high,open,Tomasz B.,
-764,2026-04-06T18:55,hardware,low,resolved,Anna K.,38.8
+764,2026-04-06T18:55,hardware,low,resolved,  anna k. ,38.8
 765,2026-05-13T11:01,printer,low,resolved,Ola N.,9.8
 766,2026-01-05T13:57,network,high,resolved,Anna K.,6.5
 767,2026-01-13T15:07,printer,high,resolved,Tomasz B.,12.2
@@ -875,7 +875,7 @@ ticket_id,created_at,category,priority,status,agent,resolution_hours
 874,2026-02-06T09:01,network,medium,resolved,Tomasz B.,32.8
 875,2026-06-23T11:01,account,high,resolved,Ola N.,11.4
 876,2026-06-11T10:23,software,high,resolved,Marta S.,9.5
-877,2026-05-11T08:07,software,high,in_progress,Tomasz B.,
+877,2026-05-11T08:07,software,High,in_progress,Tomasz B.,
 878,2026-06-22T17:16,printer,medium,resolved,Anna K.,20.2
 879,2026-03-02T12:24,software,low,resolved,Ola N.,64.7
 880,2026-02-09T09:26,network,medium,resolved,Tomasz B.,6.0
@@ -954,7 +954,7 @@ ticket_id,created_at,category,priority,status,agent,resolution_hours
 953,2026-06-25T08:03,network,medium,resolved,Anna K.,8.7
 954,2026-01-12T13:45,software,low,in_progress,Piotr W.,
 955,2026-05-06T16:46,software,high,resolved,Marta S.,9.7
-956,2026-04-21T08:25,network,high,resolved,Anna K.,8.7
+956,2026-04-21T08:25,network,High,resolved,Anna K.,8.7
 957,2026-03-23T10:51,software,low,resolved,Ola N.,50.6
 958,2026-04-07T10:46,software,medium,resolved,Piotr W.,4.4
 959,2026-04-09T11:48,software,low,resolved,Ola N.,11.3
@@ -999,3 +999,8 @@ ticket_id,created_at,category,priority,status,agent,resolution_hours
 998,2026-04-23T15:14,account,low,resolved,Marta S.,53.6
 999,2026-05-07T12:00,account,medium,resolved,Marta S.,14.2
 1000,2026-03-31T08:12,software,high,resolved,Tomasz B.,4.9
+903,2026-02-02T11:21,hardware,critical,resolved,Ola N.,1.6
+536,2026-03-06T08:31,account,medium,resolved,Piotr W.,15.5
+747,2026-01-02T06:26,account,low,resolved,Piotr W.,4.7
+802,2026-05-13T02:12,account,medium,resolved,Piotr W.,13.8
+281,2026-04-20T16:12,software,high,resolved,Anna K.,6.7

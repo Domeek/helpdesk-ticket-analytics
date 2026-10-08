@@ -11,11 +11,11 @@ All numbers come from the queries in `sql/queries/` and the charts from `src/mak
 
 Suggestion: put the most agents on Monday and train the team first on software and account problems.
 
-## 2. The average time hides SLA breaches, and critical tickets miss their SLA most often
+## 2. Critical tickets miss their SLA most often, although their average time is under the limit
 
-- Critical tickets take 3.5 h on average, which is under the 4 h SLA. Still, 25 of 55 resolved critical tickets (45.5%) took longer than 4 h.
+- Critical tickets take 3.5 h on average, which is under the 4 h SLA. But 25 of 55 resolved critical tickets (45.5%) took longer than 4 h.
 - Overall 29.7% of the 910 resolved tickets missed their SLA.
-- Medium tickets do best (23.0% breached). Low tickets breach 31.6% of the time even with the loosest limit (48 h).
+- Medium tickets do best (23.0% breached). Low tickets breach 31.6% of the time, although their limit is the loosest (48 h).
 
 Suggestion: track the share of breached tickets per priority, not just the average resolution time.
 
@@ -23,7 +23,7 @@ Suggestion: track the share of breached tickets per priority, not just the avera
 
 - Average resolution time: Marta S. 17.0 h, Anna K. 18.0 h, Piotr W. 20.7 h, Ola N. 21.8 h, Tomasz B. 25.3 h.
 - The gap between the fastest and the slowest agent is 8.3 h.
-- The monthly winner changes: Anna (January, April), Marta (February, May, June), Piotr (March). Each agent resolves only 21 to 42 tickets per month, so one month says little.
+- The monthly winner changes: Anna (January, April), Marta (February, May, June), Piotr (March). Each agent resolves 21 to 42 tickets per month, too few for one month to settle anything.
 
 Suggestion: compare agents over the full period, and only after checking that they get a similar mix of categories and priorities.
 

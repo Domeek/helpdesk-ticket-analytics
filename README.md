@@ -89,8 +89,8 @@ Example: average resolution time per agent (`02_avg_resolution_by_agent`)
 
 The full write-up is in [`reports/summary.md`](reports/summary.md). In short:
 
-1. Mondays bring 29% of all tickets, and software and account issues are 55% of them.
-2. Critical tickets average 3.5 h, under the 4 h SLA, yet 45.5% of them still break it. The average hides the breaches.
+1. 29% of all tickets arrive on Monday, and 55% are software or account issues.
+2. Critical tickets average 3.5 h, under the 4 h SLA, but 45.5% of them break it.
 3. Tomasz B. is the slowest agent overall (25.3 h against 17.0 h for Marta S.), but monthly rankings rest on 21 to 42 tickets per agent and change from month to month.
 
 ## Tests
